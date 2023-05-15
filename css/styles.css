@@ -122,12 +122,6 @@ p {
   padding-bottom: 24px;
 }
 
-.hero-section {
-  background-color: var(--brandColor);
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
-
 .text-hero {
   font-weight: 700;
   font-size: 56px;
@@ -303,7 +297,22 @@ img {
   gap: 40px;
 }
 
-.hero-text-btn {
+.hero-container {
+  max-width: 1440px;
+  height: 600px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-image.jpg);
+  background-color: #2e2f42;
+  background-position: center;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
