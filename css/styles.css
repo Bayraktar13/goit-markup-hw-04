@@ -333,6 +333,10 @@ img {
   /* аналог width */
   flex-basis: calc((100% - 24px * 3) / 4);
 }
+.svg-bckground {
+  margin-bottom: 8px;
+  background-color: #f4f4fd;
+}
 
 .third-section {
   padding-bottom: 120px;
