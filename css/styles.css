@@ -442,6 +442,10 @@ ul.fourth-section-list > li {
   background-color: #404bbf;
 }
 
+.portfolio-hover {
+  display: block;
+}
+
 .portfolio-hover:hover,
 .portfolio-hover:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
