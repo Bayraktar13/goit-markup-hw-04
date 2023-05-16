@@ -2,6 +2,7 @@
   --brandColor: #2e2f42;
   --logoColor: #4d5ae5;
   --buttonColor: #e7e9fc;
+  --socialColor: #f4f4fd;
 }
 
 body {
@@ -399,6 +400,18 @@ ul.fourth-section-list > li {
   height: 100%;
   background-color: var(--logoColor);
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social {
+  fill: var(--socialColor);
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #404bbf;
 }
 
 .footer-logo-additional {
