@@ -312,6 +312,8 @@ img {
     url(../images/hero-image.jpg);
   background-color: #2e2f42;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   display: flex;
   flex-direction: column;
@@ -333,6 +335,8 @@ img {
   /* аналог width */
   flex-basis: calc((100% - 24px * 3) / 4);
 }
+
+/* SVG */
 .svg-bckground {
   margin-bottom: 8px;
   background-color: #f4f4fd;
